@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-pantherBlack text-pantherSilver;
+}
+.glow {
+  text-shadow: 0 0 10px #6A0DAD, 0 0 20px #FFD700, 0 0 40px #6A0DAD;
+}
