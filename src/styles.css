@@ -450,69 +450,55 @@
   color: #ccc;
   line-height: 1.5;
 }
-/* Base navbar (desktop) */
-nav.container {
+/* Base styles */
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
-}
-
-/* Nav links */
-nav .nav-links {
-  display: flex;
-  gap: 20px;
-}
-
-/* Mobile: stack items or collapse */
-@media (max-width: 768px) {
-  nav.container {
-    flex-direction: column;  /* brand on top, links below */
-    align-items: flex-start;
-  }
-
-  nav .nav-links {
-    flex-direction: column;  /* stack links vertically */
-    width: 100%;
-    margin-top: 12px;
-  }
-
-  nav .nav-links a {
-    padding: 10px 0;
-    width: 100%;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-  }
-}
-/* Base navbar */
-nav.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px;
   position: relative;
-  z-index: 10; /* keeps nav above background */
 }
 
-/* Nav links (desktop) */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Desktop view */
 .nav-links {
   display: flex;
   gap: 20px;
 }
 
-/* Mobile */
+/* Mobile view */
 @media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
   .nav-links {
+    display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;        /* just below navbar */
+    top: 60px; /* below navbar */
     left: 0;
     right: 0;
-    background: #0a0a0a; /* dark background */
+    background: #0a0a0a;
     padding: 16px;
-    display: none; /* hidden by default */
+    gap: 12px;
+    z-index: 99;
   }
 
   .nav-links.show {
-    display: flex; /* shown when toggled */
+    display: flex;
+  }
+
+  .nav-links a {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
