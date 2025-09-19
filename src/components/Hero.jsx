@@ -54,7 +54,7 @@ export default function Hero() {
         >
           {/* Full Hero Image */}
           <img
-            src="/IMG_6304 Large.jpeg"
+            src="/profile-2025.jpeg"
             alt="Guru Ganesh"
             className="hero-img"
           />
