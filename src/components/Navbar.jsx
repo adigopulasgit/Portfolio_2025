@@ -9,7 +9,7 @@ export default function Navbar() {
       {/* Brand */}
       <div className="brand">
         <img
-          src="/IMG_6134 Large.jpeg"
+          src="/IMG_6304 Large.jpeg"
           alt="Guru Ganesh"
           className="brand-img"
         />
