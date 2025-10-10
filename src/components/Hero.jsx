@@ -29,9 +29,6 @@ export default function Hero() {
         </motion.p>
 
         <div className="hero-ctas">
-          <a className="btn-primary" href="/work">
-            See case studies
-          </a>
           <a
             className="btn-link"
             href="https://docs.google.com/document/d/1YiQPO4FqGniNc0Vr0_qsyiVJN7TgPtBYcf4YJsFcC54/edit?tab=t.0"
