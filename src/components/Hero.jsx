@@ -34,7 +34,7 @@ export default function Hero() {
           </a>
           <a
             className="btn-link"
-            href="https://docs.google.com/document/d/1aYxIAS7MB4wGc7TeJ-yKFpHaym2Q0Q7V/edit?tab=t.0"
+            href="https://docs.google.com/document/d/1YiQPO4FqGniNc0Vr0_qsyiVJN7TgPtBYcf4YJsFcC54/edit?tab=t.0"
             target="_blank"
             rel="noreferrer"
           >
