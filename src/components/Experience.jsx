@@ -5,7 +5,7 @@ const experienceData = [
   {
     role: "Data Science Intern",
     company: "AIQure, LLC",
-    year: "Jan 2025 – Present",
+    year: "Aug 2025 – Present",
     details: [
       "Engineered scalable data pipelines integrating BindingDB, TDC, and PubChem with automated validation in Python + SQL, improving dataset reliability by 35% and reducing ingestion time.",
       "Optimized LightGBM and Chemprop models through Optuna-based hyperparameter tuning and RDKit feature engineering, boosting R² by 14% and reducing featurization runtime by 22%.",
