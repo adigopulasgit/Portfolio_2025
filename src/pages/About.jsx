@@ -6,8 +6,13 @@ export default function About() {
     <section className="container">
       <h1>About Me</h1>
       <p className="lead">
-        Hi, I’m Guru Ganesh — a UX designer and frontend developer passionate
-        about building thoughtful, accessible, and animated web experiences.
+        A dedicated Computer Science graduate with hands-on experience in
+          software development, web technologies, and machine learning. Skilled
+          in Python, Java, and modern frameworks like React.js. Proven ability
+          to design and deploy full-stack applications, optimize databases, and
+          implement machine learning models. Adept at collaborating in
+          fast-paced environments, solving complex problems, and delivering
+          high-quality solutions on time.
       </p>
     </section>
   );
