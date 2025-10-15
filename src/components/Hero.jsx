@@ -30,13 +30,14 @@ export default function Hero() {
 
         <div className="hero-ctas">
           <a
-            className="btn-link"
-            href="https://docs.google.com/document/d/1YiQPO4FqGniNc0Vr0_qsyiVJN7TgPtBYcf4YJsFcC54/edit?tab=t.0"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Resume
-          </a>
+          className="btn-primary"
+          href="https://docs.google.com/document/d/1YiQPO4FqGniNc0Vr0_qsyiVJN7TgPtBYcf4YJsFcC54/edit?tab=t.0"
+          target="_blank"
+          rel="noreferrer"
+          onClick={() => setOpen(false)}
+        >
+          Resume
+        </a>
         </div>
 
         <div className="kicker" style={{ marginTop: 18 }}></div>
