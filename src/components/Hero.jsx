@@ -28,7 +28,7 @@ export default function Hero() {
           high-quality solutions on time.
         </motion.p>
 
-        <div className="hero-ctas">
+        <div>
           <a
           className="btn-primary"
           href="https://docs.google.com/document/d/1YiQPO4FqGniNc0Vr0_qsyiVJN7TgPtBYcf4YJsFcC54/edit?tab=t.0"
