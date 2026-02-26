@@ -15,15 +15,16 @@ const experienceData = [
     ],
   },
   {
-    role: "Junior Software Engineer",
+    role: "Data Engineer",
     company: "eSmartChip Solutions",
     year: "Aug 2022 – Dec 2023",
     details: [
-      "Developed and deployed Python-based automation frameworks for firmware validation, regression testing, and sensor calibration — reducing manual QA effort by 40% across embedded devices.",
-      "Built data ingestion and transformation pipelines to capture telemetry from UART, SPI, and I²C interfaces and store structured results in SQL, enabling rapid root-cause analysis.",
-      "Integrated device telemetry with analytics dashboards using REST APIs and MQTT/HTTP streams, providing real-time visibility into production performance and test metrics.",
-      "Collaborated with firmware and DevOps teams to implement CI/CD hooks (Git + Jenkins) for automated build verification and test reporting.",
-      "Prototyped and validated IoT edge modules focusing on data reliability, error handling, and secure device-to-cloud connectivity via AWS IoT Core.",
+      "Designed and maintained high-throughput data ingestion pipelines to process embedded device telemetry, reducing manual QA effort by 40% through automation and structured data validation.",
+      "Engineered ETL workflows to transform raw UART, SPI, and I²C telemetry streams into normalized, analytics-ready SQL datasets, enabling faster root-cause analysis and diagnostics.",
+      "Developed real-time data streaming integrations using REST APIs and MQTT/HTTP protocols, powering production monitoring dashboards and performance analytics.",
+      "Optimized database schemas, indexing strategies, and query execution plans to improve data retrieval performance and reporting efficiency.",
+      "Collaborated with firmware and DevOps teams to implement CI/CD automation (Git + Jenkins) for data pipeline validation, build verification, and deployment reliability.",
+      "Integrated secure device-to-cloud ingestion using AWS IoT Core, ensuring scalable, fault-tolerant data transmission and monitoring."
     ],
   },
 ];
