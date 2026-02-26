@@ -19,13 +19,12 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.12 }}
         >
-          A dedicated Computer Science graduate with hands-on experience in
-          software development, web technologies, and machine learning. Skilled
-          in Python, Java, and modern frameworks like React.js. Proven ability
-          to design and deploy full-stack applications, optimize databases, and
-          implement machine learning models. Adept at collaborating in
-          fast-paced environments, solving complex problems, and delivering
-          high-quality solutions on time.
+          A dedicated Computer Science graduate with hands-on experience in data engineering, scalable ETL pipelines, 
+          and machine learning systems. Skilled in Python, SQL, and data modeling, with experience building high-volume 
+          data ingestion workflows and optimizing PostgreSQL databases. Proven ability to design and deploy 
+          production-ready ML applications, implement performance tuning strategies, and integrate CI/CD pipelines 
+          using modern DevOps practices. Adept at solving complex analytical problems, collaborating in fast-paced environments,
+          and delivering reliable, high-impact data-driven solutions.
         </motion.p>
 
         <div>
@@ -52,7 +51,7 @@ export default function Hero() {
         >
           {/* Full Hero Image */}
           <img
-            src="/profile-2025.jpeg"
+            src="/profile-2026.jpeg"
             alt="Guru Ganesh"
             className="hero-img"
           />
